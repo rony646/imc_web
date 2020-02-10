@@ -12,7 +12,6 @@ body, html {
     width: 100%;
 }
 body {
-    position: absolute;
     font-family: 'Lato', 'sans-serif';
     background-image: linear-gradient(#46a09a , #04857c);
     background-repeat: no-repeat;
@@ -23,7 +22,7 @@ body {
 /* BMI box */
 
 .flex-container {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +38,7 @@ body {
     align-items: stretch;
     height: 74vh;
     width: 80vw;
-    background-color: red;
+    background-color: #c8d8d7;
     border-radius: 2.2rem;
     box-shadow: 5px 6px 10px rgba(0, 12, 2, 0.7);
 }
