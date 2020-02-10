@@ -4,6 +4,14 @@
 $('.height').mask('0.00')
 
 
+$(document).ready(function() {
+    /* ... */
+    var windowHeight = $(window).innerHeight();
+    $('body').css({'height':windowHeight});
+    /* ... */
+});
+
+
 function calcBMI() {
     
     // Here we get the user height and wheight values
