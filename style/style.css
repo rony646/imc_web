@@ -32,12 +32,11 @@ body {
 
 
 .content-box {
+    position: absolute;
     display: flex;
     align-items: stretch;
     height: 74vh;
     width: 80vw;
-
-
     background-color: #c8d8d7;
     border-radius: 2.2rem;
     box-shadow: 5px 6px 10px rgba(0, 12, 2, 0.7);
@@ -45,10 +44,8 @@ body {
 
 .bmi-box {
     display: flex;
-   
     align-items: center;
     justify-content: center;
-    
     width: 50%;
 }
 
