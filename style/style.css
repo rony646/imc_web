@@ -78,6 +78,7 @@ button:active {
 
 input {
     
+    position: relative;
     height: 6vh;
     width: 35vw;
     margin: 6vh 3vw;

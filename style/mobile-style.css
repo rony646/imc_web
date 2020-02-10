@@ -16,6 +16,10 @@
         height: 50%;
     }
 
+    .bmi-box input {
+        top: 7vh;
+    }
+
     input {
         height: 5vh;
         font-size: 0.8em;
@@ -28,13 +32,12 @@
         align-items: center;
         text-align: center;
         font-size: 1em;
-        margin: 0px 3vw -50px; 
+        margin: 6vh 3vw -12vh; 
         
     }
 
     button {
-       
-        margin-left: 5.5vw;
+        margin: 1.8rem 0px 0px 5.5vw;
         width: 30vw;
     }
 
