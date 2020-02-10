@@ -1,0 +1,147 @@
+/* General config */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Lato', 'sans-serif';
+    background-image: linear-gradient(#46a09a , #04857c);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* BMI box */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.content-box {
+    display: flex;
+    align-items: stretch;
+    height: 74vh;
+    width: 80vw;
+
+
+    background-color: #c8d8d7;
+    border-radius: 2.2rem;
+    box-shadow: 5px 6px 10px rgba(0, 12, 2, 0.7);
+}
+
+.bmi-box {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    
+    width: 50%;
+}
+
+button {  
+        color: #eee;
+        text-shadow: 1px 1px 1px  black;;
+        font-size: 1.5em;
+        align-self: center;
+        margin-left: 9.5vw;
+        height: 8vh;
+        width: 21vw;
+        border: 2px solid #313131;
+        border-radius: 1.5em;
+        background-image: linear-gradient(to right, #0eb4a9 , #078a83);
+        outline: none;
+    }
+
+button:hover {
+    color: #e9e7e7;
+    background-image: linear-gradient(to right, #0b7c75 , #03423f);
+    cursor: pointer;
+}
+
+button:active {
+    transition: 0.5s;
+    border: none;
+}
+
+
+input {
+    
+    height: 6vh;
+    width: 35vw;
+    margin: 6vh 3vw;
+    font-size: 1.4em;
+    padding: 1vh;
+    background-color: #eee;
+    
+    box-shadow: inset 5px 4px 10px rgba(114, 113, 113, 0.25);
+    border: 2px solid #04857c;
+    border-radius: 1em;
+    outline: none;
+    
+}
+
+label {
+    color:#02413c;
+    text-shadow: 1px 1px 5px rgba(1, 26, 1, 0.14);
+    font-size: 1.7em;
+    font-weight: 1000;
+    margin: 0px 3vw;
+}
+
+/* Result-Box */
+
+.result-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+   
+}
+
+h1 {
+    color:#02413c;
+    text-shadow: 1px 1px 5px rgba(1, 26, 1, 0.14);
+    margin-top: 9vh;
+    font-size: 2.5em;
+}
+
+.result-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 4em;
+    color: #012c29;
+    
+    box-shadow: inset 5px 4px 10px rgba(114, 113, 113, 0.5);
+    border: 2px solid #04857c;
+    border-radius: 2rem;
+    background-color: #eee;
+    margin-top: 10vh;
+    height: 23vh;
+    width: 23vw;
+}
+
+#bmi_message {
+    color: rgb(114, 4, 4);
+    margin-top: 6vh;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgba(1, 26, 1, 0.25);
+}
+
+
+/* TEST AREa */

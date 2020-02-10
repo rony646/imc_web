@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href="style/style.css">
+    <link rel='stylesheet' href="style/mobile-style.css">
+    <link rel='shortcut icon' type='image/ico' href="style/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Calcule seu IMC</title>
+</head>
+<body>
+    <div class=flex-container>
+        <div class="content-box">
+            <div class='bmi-box'>
+                <div style="display: block;">
+                    <label>Insira sua Altura:</label><br>
+                    <input  type="number" placeholder="Exemplo: 1.73..." step="0.1" min="0" id='get_height' class='height'></input><br>
+                    <label>Insira seu Peso:</label><br>
+                    <input  type="number" placeholder="Exemplo: 60..."  min="0" id='get_weight' step="0.1"></input><br>
+                    <button class='btn' onclick="calcBMI()">Calcular</button>
+                </div>
+            </div>
+
+            <div class='result-box'>
+                <h1>Resultado</h1>
+                <div class='result-show' id='my_result'>0</div>
+                <span id='bmi_message'></span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+        <script src='script.js'></script>
+    </footer>
+</body>
+</html>
