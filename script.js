@@ -3,7 +3,11 @@
 
 $('.height').mask('0.00')
 
-
+$(function() {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    $("flex-containter").css({"width":w, "height":h});
+});
 
 
 function calcBMI() {
